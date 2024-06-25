@@ -1,6 +1,6 @@
 # ---- Flask Hello World ---- #
 # import the Flask class from the flask package
-import Flask
+from flask import Flask
 
 # create the application object
 app = Flask(__name__)
